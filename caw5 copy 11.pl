@@ -72,7 +72,7 @@ don't choose outputs from non new var v
 don't run repeat preds
 
 make predicate, clause writer
-member predicates returing no output
+member predicates returning no output
 
 **/
 
