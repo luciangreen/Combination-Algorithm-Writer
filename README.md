@@ -7,13 +7,17 @@ Combination Algorithm Writer is a SWI-Prolog algorithm that finds combinations o
 
 Installation
 Load all files in the form:
-['filename'].
-
+```['listprologinterpreter1listrecursion4 copy 52'].
+['listprologinterpreter3preds5 copy 52'].
+['caw5 copy 11'].
+```
 Running
 
+```
 caw00(off,f,[[append,2,1],[delete,2,1],[head,1,1],[tail,1,1],[member,1,1]],50,7,[[a,1]],[[b,1]],[],Program).
 Program = [f,[1,b]],[[f,[a,b],:-,[[=,[b,a]]]]],[[b,1]]
 (Press ";" for more results).
+```
 
 Note:
 Use (:-) instead of :-.
