@@ -7,7 +7,8 @@ Combination Algorithm Writer is a SWI-Prolog algorithm that finds combinations o
 
 Installation
 Load all files in the form:
-```['listprologinterpreter1listrecursion4 copy 52'].
+```
+['listprologinterpreter1listrecursion4 copy 52'].
 ['listprologinterpreter3preds5 copy 52'].
 ['caw5 copy 11'].
 ```
