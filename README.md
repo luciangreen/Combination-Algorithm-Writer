@@ -5,19 +5,32 @@ Combination Algorithm Writer
 
 Combination Algorithm Writer is a SWI-Prolog algorithm that finds combinations of given commands that satisfy the given input and output.
 
+# Prerequisites
 
-# Installation from List Prolog Package Manager (LPPM)
+* Please download and install SWI-Prolog for your machine at `https://www.swi-prolog.org/build/`.
 
-* Optionally, you can install from LPPM by installing <a href="https://www.swi-prolog.org/build/">SWI-Prolog</a> for your machine, downloading the <a href="https://github.com/luciangreen/List-Prolog-Package-Manager">LPPM Repository</a>,
+# 1. Install manually
+
+Download <a href="http://github.com/luciangreen/Combination-Algorithm-Writer/">this repository</a>.
+
+# 2. Or Install from List Prolog Package Manager (LPPM)
+
+* Download the <a href="https://github.com/luciangreen/List-Prolog-Package-Manager">LPPM Repository</a>:
+
 ```
 git clone https://github.com/luciangreen/List-Prolog-Package-Manager.git
 cd List-Prolog-Package-Manager
 swipl
+['lppm'].
+lppm_install("luciangreen","Combination-Algorithm-Writer")
+halt
 ```
-loading LPPM with `['lppm'].` then installing the package by running `lppm_install("luciangreen","Combination-Algorithm-Writer").`.
 
-Installation
-Load all files in the form:
+# Running
+
+* In Shell:
+`cd Combination-Algorithm-Writer`
+`swipl`
 ```
 ['listprologinterpreter1listrecursion4 copy 52'].
 ['listprologinterpreter3preds5 copy 52'].
